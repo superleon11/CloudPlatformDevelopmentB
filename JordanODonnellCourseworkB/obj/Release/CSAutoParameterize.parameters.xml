@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="AzureWebJobsDashboard-Web.config Connection String" description="AzureWebJobsDashboard Connection String used in web.config by the application to access the database." defaultValue="DefaultEndpointsProtocol=https;AccountName=jodstorcpdcwb2019;AccountKey=TEQsOv25TYc1+AelrU3dh8Jb2qdqJh8aNrcIfc4jiSqG+0AFSu/ihA8WT7QztZ5Nbkb+CuImXH5IhX3y5n1W4A==;EndpointSuffix=core.windows.net" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Jordan\\Desktop\\CloudBBackup\\JordanODonnellCourseworkB\\JordanODonnellCourseworkB\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AzureWebJobsDashboard']/@connectionString" />
+  </parameter>
+  <parameter name="AzureWebJobsStorage-Web.config Connection String" description="AzureWebJobsStorage Connection String used in web.config by the application to access the database." defaultValue="DefaultEndpointsProtocol=https;AccountName=jodstorcpdcwb2019;AccountKey=TEQsOv25TYc1+AelrU3dh8Jb2qdqJh8aNrcIfc4jiSqG+0AFSu/ihA8WT7QztZ5Nbkb+CuImXH5IhX3y5n1W4A==;EndpointSuffix=core.windows.net" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Jordan\\Desktop\\CloudBBackup\\JordanODonnellCourseworkB\\JordanODonnellCourseworkB\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AzureWebJobsStorage']/@connectionString" />
+  </parameter>
+  <parameter name="AzureStorage-Web.config Connection String" description="AzureStorage Connection String used in web.config by the application to access the database." defaultValue="DefaultEndpointsProtocol=https;AccountName=jodstorcpdcwb2019;AccountKey=TEQsOv25TYc1+AelrU3dh8Jb2qdqJh8aNrcIfc4jiSqG+0AFSu/ihA8WT7QztZ5Nbkb+CuImXH5IhX3y5n1W4A==;EndpointSuffix=core.windows.net" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Jordan\\Desktop\\CloudBBackup\\JordanODonnellCourseworkB\\JordanODonnellCourseworkB\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AzureStorage']/@connectionString" />
+  </parameter>
+</parameters>
